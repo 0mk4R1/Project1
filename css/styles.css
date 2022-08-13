@@ -1,0 +1,159 @@
+#title{
+    background-color: #FF4C68;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.container-fluid{
+    padding: 3% 15% 15%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.nav-item{
+    padding: 0px  18px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 10%;
+    position: absolute;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.features{
+    text-align: center;
+    padding: 4%;
+}
+
+.description{
+    color: #8F8F8F;
+}
+
+
+.logo{
+    color: #EF8172;
+}
+
+.logo:hover{
+    color: #FF4C68;
+}
+
+#testimonials{
+    background-color: #FF4C68;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #FF4C68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-inner{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 990px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform:rotate(0);
+    }
+}
+
+#cta{
+    background-color: #FF4C68;
+    text-align: center;
+    height: 2500%;
+    padding: 5% 22%;
+}
+
+.cta-button{
+    margin: 3rem 1rem;
+}
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    height: 5rem;
+}
+
+.footer{
+    padding: 1rem;
+}
